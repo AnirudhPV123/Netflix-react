@@ -1,0 +1,54 @@
+.banner{
+    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    background-size: cover; /*fill image*/
+    height: 585px;
+    color: white;
+
+}
+
+.content{
+    padding-top: 187px;
+    height:190px ;
+    padding-left: 15px;
+
+}
+
+.title{
+    font-size: 3.3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.button{
+    color: white;
+    outline: none;
+    border: none;  /*it remove extra shade*/
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem; /*used instead to width*/
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(51, 51, 51,0.5);  /*0.5 is opacity to color*/ 
+    cursor: pointer;  /*animation when cursor enter*/
+    margin-right: 1rem;
+}
+
+.button:hover{      /*used to change design of the button when cursor enters*/
+    color: black;
+    background-color: #e6e6e6;
+}
+
+.description{
+    width: 45rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    height: 80px;
+    max-width: 450px;
+    padding-top: 1rem;
+}
+
+.fade_botton{
+    height: 12.97rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);  /*used to give a shade in the botton of the banner or first big image*/
+}

@@ -1,0 +1,20 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    display: flex;  /*multiple images in a row */
+    padding: 20px;
+    overflow-x: scroll; /*scroll in x direction */
+    overflow-y: hidden; 
+}
+
+.posters::-webkit-scrollbar{   /*scrollbar inbuild class used to control scrollbar , here we are not showing scrollbar*/ 
+    display: none;
+}
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+}
