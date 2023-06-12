@@ -18,3 +18,16 @@
     max-height: 250px;
     margin-right: 10px;
 }
+
+.smallposter{
+    max-height: 170px;
+    margin-right: 10px;
+}
+
+.poster:hover{
+    transform: scale(1.1);
+}
+
+.smallposter:hover{
+    transform: scale(1.1);
+}
